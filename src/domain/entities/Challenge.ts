@@ -3,7 +3,7 @@ import { Entity } from "../../core/domain/Entity"
 type ChallengeProps ={
     instructionsUrl: string;
     title: string;
-    createdAt: Date;
+    createdAt?: Date;
 }
 
 export class Challenge extends Entity<ChallengeProps>{
